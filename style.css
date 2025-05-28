@@ -1,0 +1,200 @@
+:root {
+  --bg-color: #1d1427;
+  --text-color: #e8dcd3;
+  --accent-color: #e8dcd3;
+  --hover-color: #a388ff;
+  --card-bg: #2b1a35;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.hero {
+  background: url('https://i.postimg.cc/dQScdHbK/Cozy-Chairreal1.webp') no-repeat center;
+  background-size: cover;
+  background-color: #1d1427; 
+  background-blend-mode: overlay;
+  color: var(--text-color);
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 70vh;
+  position: relative;   
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+
+.intro {
+  position: relative;
+  top: 10rem; 
+  max-width: 600px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.intro h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.intro .role {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var(--text-color);
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+
+.intro .tagline {
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  line-height: 1.7;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  border-radius: 999px;
+  font-family: 'Cormorant Garamond', serif;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  color: var(--text-color);
+  background: transparent;
+  border: 1.5px solid var(--text-color);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-color);
+  color: #1d1427;
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
+
+.nav {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: var(--accent-color);
+}
+
+
+.projects-section {
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+
+.projects-section h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-top: -4rem; /* pull it up */
+  font-family: 'Playfair Display', serif;
+  color: var(--text-color);
+}
+
+
+.projects-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+.project-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(255, 110, 199, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #d8c5b8;
+  margin-bottom: 1rem;
+}
+
+.project-links a {
+  margin: 0 0.5rem;
+  color: var(--accent-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-links a:hover {
+  color: var(--hover-color);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #120d1c;
+  color: #aa9ca6;
+}

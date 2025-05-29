@@ -39,7 +39,7 @@ body {
 
 .floating-portrait {
   position: absolute;
-  bottom: 25rem;
+  bottom: 28rem;
   right: 6%;
   max-width: 260px;
   z-index: 1;
@@ -57,8 +57,8 @@ body {
 
 .left-glow-deco {
   position: absolute;
-  top: 15rem;
-  left: 10rem;
+  top: 18rem;
+  left: 18rem;
   width: 120px;
   height: 120px;
   border-radius: 50%;

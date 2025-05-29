@@ -328,6 +328,11 @@ footer {
   }
 
   .left-glow-deco {
-    display: none;
-  }
+  display: block;
+  top: 8rem; 
+  left: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
 }

@@ -40,7 +40,7 @@ body {
 .floating-portrait {
   position: absolute;
   bottom: 28rem;
-  right: 10rem;
+  right: 13rem;
   max-width: 260px;
   z-index: 1;
   pointer-events: none;

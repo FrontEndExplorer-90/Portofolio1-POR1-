@@ -280,11 +280,12 @@ footer {
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1.2rem;
     padding: 0;
     margin: 1rem 0;
+    justify-content: center;
   }
 
   .nav ul li a {

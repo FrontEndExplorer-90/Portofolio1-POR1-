@@ -39,7 +39,7 @@ body {
 
 .floating-portrait {
   position: absolute;
-  bottom: 33rem;
+  bottom: 29rem;
   right: 13rem;
   max-width: 260px;
   z-index: 1;
@@ -73,7 +73,7 @@ body {
   background: radial-gradient(circle, rgba(255,110,199,0.25) 0%, rgba(255,110,199,0.05) 70%, transparent 100%);
   filter: blur(20px) brightness(1.4);
   animation: pulseGlow 4s ease-in-out infinite;
-  z-index: -1; 
+   
 }
 
 @keyframes pulseGlow {

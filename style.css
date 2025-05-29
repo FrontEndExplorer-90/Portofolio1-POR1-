@@ -37,8 +37,45 @@ body {
 
 }
 
+.floating-portrait {
+  position: absolute;
+  bottom: 25rem;
+  right: 6%;
+  max-width: 260px;
+  z-index: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 0 15px rgba(255, 110, 199, 0.2));
+  transition: transform 0.3s ease;
+}
+
+.floating-portrait img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  opacity: 0.95;
+}
+
+.left-glow-deco {
+  position: absolute;
+  top: 15rem;
+  left: 10rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,110,199,0.25) 0%, rgba(255,110,199,0.05) 70%, transparent 100%);
+  filter: blur(20px) brightness(1.4);
+  animation: pulseGlow 4s ease-in-out infinite;
+  z-index: 0;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
 .intro {
   position: relative;
+  flex: 1;
   top: 10rem; 
   max-width: 600px;
   padding-left: 2rem;
@@ -125,17 +162,33 @@ body {
   color: var(--accent-color);
 }
 
+.wave-divider {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  position: relative;
+  margin-top: -5rem;
+  z-index: 0;
+}
+
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 80px;
+}
 
 .projects-section {
   padding: 6rem 2rem 4rem;
   text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
 }
 
 
 .projects-section h2 {
   font-size: 3rem;
-  margin-bottom: 3rem;
-  margin-top: -4rem; /* pull it up */
+  margin-bottom: 0rem;
+  margin-top: -4rem; 
   font-family: 'Playfair Display', serif;
   color: var(--text-color);
 }

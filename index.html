@@ -8,6 +8,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Assistant&display=swap" rel="stylesheet">
 </head>
 <body>
+
+<div class="floating-portrait">
+  <img src="https://i.postimg.cc/02WdtKpT/Portrait-Fantasy.png" alt="Portrait of Janina" />
+</div>
+
   <header class="hero">
     <nav class="nav">
       <ul>
@@ -16,15 +21,32 @@
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
+
+    
     <div class="intro">
       <h1>Janina Meyer-Amundsen</h1>
       <p class="role">Frontend Developer</p>
       <p class="tagline">Crafting digital experiences with a touch of magic</p>
       <a href="#projects" class="cta-button">View My Work</a>
     </div>
+
+    <div class="left-glow-deco"></div>
+
   </header>
 
   <main>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path d="M0,0 C480,80 960,20 1440,80 L1440,100 L0,100 Z" 
+          fill="url(#fadeGradient)" />
+        <defs>
+          <linearGradient id="fadeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#1d1427" stop-opacity="1" />
+            <stop offset="100%" stop-color="#2e1d3c" stop-opacity="0.9" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
     <section id="projects" class="projects-section">
       <h2>Projects</h2>
       <div class="projects-grid">

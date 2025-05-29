@@ -39,7 +39,7 @@ body {
 
 .floating-portrait {
   position: absolute;
-  bottom: 28rem;
+  bottom: 33rem;
   right: 13rem;
   max-width: 260px;
   z-index: 1;
@@ -55,15 +55,17 @@ body {
   opacity: 0.95;
 }
 
-.lamp-wrapper {
+.intro-wrapper {
   position: relative;
   width: 100%;
-  max-width: 800px; 
+  max-width: 600px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .left-glow-deco {
   position: absolute;
-  top: 7rem;
+  top: 0rem; 
   left: 1rem;
   width: 120px;
   height: 120px;
@@ -71,7 +73,7 @@ body {
   background: radial-gradient(circle, rgba(255,110,199,0.25) 0%, rgba(255,110,199,0.05) 70%, transparent 100%);
   filter: blur(20px) brightness(1.4);
   animation: pulseGlow 4s ease-in-out infinite;
-  z-index: 0;
+  z-index: -1; 
 }
 
 @keyframes pulseGlow {

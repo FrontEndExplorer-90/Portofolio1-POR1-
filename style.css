@@ -65,8 +65,8 @@ body {
 
 .left-glow-deco {
   position: absolute;
-  top: 0rem; 
-  left: 1rem;
+  top: 23rem; 
+  left: -1rem;
   width: 120px;
   height: 120px;
   border-radius: 50%;

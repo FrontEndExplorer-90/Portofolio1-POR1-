@@ -329,9 +329,9 @@ footer {
 
   .left-glow-deco {
   display: block;
-  top: 3rem; 
-  left: 1rem;
-  width: 100px;
-  height: 100px;
+  top: 4rem; 
+  left: -1rem;
+  width: 80px;
+  height: 80px;
   }
 }

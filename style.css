@@ -40,7 +40,7 @@ body {
 .floating-portrait {
   position: absolute;
   bottom: 28rem;
-  right: 6%;
+  right: 10rem;
   max-width: 260px;
   z-index: 1;
   pointer-events: none;
@@ -250,4 +250,55 @@ footer {
   font-size: 0.9rem;
   background-color: #120d1c;
   color: #aa9ca6;
+}
+
+@media (max-width: 768px) {
+  .floating-portrait {
+    position: static;
+    display: block;
+    margin: 1.5rem auto 1rem auto;
+    max-width: 180px;
+    z-index: 1;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .intro h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  .intro .role,
+  .intro .tagline {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .cta-button {
+    margin-top: 1.5rem;
+  }
+
+   nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .nav {
+    position: relative;
+    text-align: center;
+  }
+
+  .nav ul li a {
+    font-size: 1rem;
+    color: #f8d7e0;
+  }
 }

@@ -253,28 +253,58 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .floating-portrait {
-    position: static;
-    display: block;
-    margin: 1.5rem auto 1rem auto;
-    max-width: 180px;
-    z-index: 1;
+  body {
+    overflow-x: hidden;
   }
 
   .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem 1rem;
     text-align: center;
+    padding: 3rem 1rem 2rem 1rem;
+    position: relative;
+  }
+
+  .nav {
+    position: static;
+    margin-bottom: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+
+  .nav ul li a {
+    font-size: 1rem;
+    color: #ffeef8;
+    text-shadow: 0 0 3px rgba(255, 110, 199, 0.5);
+  }
+
+  .floating-portrait {
+    position: static;
+    display: block;
+    max-width: 180px;
+    margin: 1rem auto 1rem auto;
+    filter: drop-shadow(0 0 10px rgba(255, 110, 199, 0.2));
   }
 
   .intro h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.5rem;
   }
 
-  .intro .role,
+  .intro .role {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+  }
+
   .intro .tagline {
     font-size: 1rem;
     padding: 0 1rem;
@@ -282,23 +312,14 @@ footer {
 
   .cta-button {
     margin-top: 1.5rem;
-  }
-
-   nav ul {
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
-  .nav {
-    position: relative;
-    text-align: center;
-  }
-
-  .nav ul li a {
     font-size: 1rem;
-    color: #f8d7e0;
+  }
+
+  .wave-divider {
+    margin-top: -3.5rem;
+  }
+
+  .left-glow-deco {
+    display: none;
   }
 }

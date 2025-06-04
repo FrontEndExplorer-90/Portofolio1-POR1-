@@ -311,6 +311,10 @@ footer {
     text-shadow: 0 0 3px rgba(255, 110, 199, 0.5);
   }
 
+  .intro {
+    top: 0; 
+  }
+
   .intro h1 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -335,6 +339,10 @@ footer {
 
   .wave-divider {
     margin-top: -3.5rem;
+  }
+
+  .hero {
+    padding-top: 2rem;
   }
 
 }

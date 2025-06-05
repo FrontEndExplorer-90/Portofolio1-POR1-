@@ -269,6 +269,50 @@ body {
   color: var(--hover-color);
 }
 
+.contact-section {
+  background-color: #1d1427;
+  color: var(--text-color);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-wrapper p {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  font-size: 1.1rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.contact-button {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--accent-color);
+  border: 1.5px solid var(--accent-color);
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: var(--accent-color);
+  color: #1d1427;
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
 footer {
   text-align: center;
   padding: 2rem;

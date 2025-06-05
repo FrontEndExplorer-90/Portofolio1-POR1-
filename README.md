@@ -16,7 +16,7 @@ This portfolio is fully responsive and highlights some of the key projects I've 
 
 ## Purpose
 
-The goal of this project is to present my skills, reflect my design taste, and act as a digital introduction to who I am — not just what I can build. It's both a technical exercise and a personal expression.
+The goal of this project is to present my skills, reflect my design taste, and act as a digital introduction to who I am | not just what I can build. It's both a technical exercise and a personal expression.
 
 ##  Built With
 

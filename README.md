@@ -44,7 +44,7 @@ This is a living project, and I already have ideas for what I’d improve:
 
 ## About Me
 
-I'm Janina — a frontend developer-in-training with a background in IT-security and healthcare. I love clean code, thoughtful UX, and blending creativity with logic. You can learn more about me on the site or get in touch via [LinkedIn](https://www.linkedin.com/in/janina-meyer-amundsen-07547b2b6/) or [email](mailto:janina_mey@hotmail.com).
+I'm Janina | a frontend developer-in-training with a background in IT-security and healthcare. I love clean code, thoughtful UX, and blending creativity with logic. You can learn more about me on the site or get in touch via [LinkedIn](https://www.linkedin.com/in/janina-meyer-amundsen-07547b2b6/) or [email](mailto:janina_mey@hotmail.com).
 
 ---
 

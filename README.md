@@ -40,7 +40,7 @@ This is a living project, and I already have ideas for what I’d improve:
 
 ## Live Site
 
-[🔗 View Portfolio Live](https://benevolent-piroshki-c89b81.netlify.app)
+[ View Portfolio Live](https://benevolent-piroshki-c89b81.netlify.app)
 
 ## About Me
 
